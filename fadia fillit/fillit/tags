@@ -1,0 +1,12 @@
+Mft_fillit	ft_fillit.c	/^int				main(int argc, char **argv)$/
+Mparsing_open_stok	parsing_open_stok.c	/^int				main(int argc, char **argv)$/
+ft_strtrime	ft_fillit.c	/^ char	*ft_strtrime(char const *s)$/
+init_struct	parsing_open_stok.c	/^t_parsing		init_struct(void)$/
+left	ft_fillit.1.c	/^static char		**left(int j_min, char **tab)$/
+line	parsing_open_stok.c	/^int			line(char *str)$/
+open_stock	parsing_open_stok.c	/^char		*open_stock(char *file)$/
+parsing	parsing_open_stok.c	/^int				parsing(char *file)$/
+tetrimino	ft_fillit.c	/^char		**tetrimino(char *file)$/
+up	ft_fillit.1.c	/^static char		**up(int i_min, char **tab)$/
+valid_or_not	parsing_open_stok.c	/^int				valid_or_not(char *str)$/
+verif_point_htag	parsing_open_stok.c	/^int			verif_point_htag(char *str)$/

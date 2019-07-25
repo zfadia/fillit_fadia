@@ -1,0 +1,1 @@
+ifconfig -a |grep -A2 en1 | grep ether
