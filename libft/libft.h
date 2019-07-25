@@ -6,21 +6,21 @@
 /*   By: zfadia <zfadia@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/24 00:32:55 by zfadia            #+#    #+#             */
-/*   Updated: 2019/06/18 20:45:38 by zfadia           ###   ########.fr       */
+/*   Updated: 2019/06/21 07:43:40 by zfadia           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # define BUFF_SIZE 4096
+
+# include <fcntl.h>
 # include <string.h>
 # include <ctype.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
 # include <limits.h>
-# include <fcntl.h>
-# include "get_next_line.h"
 
 typedef struct		s_list
 {
